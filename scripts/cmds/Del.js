@@ -17,8 +17,7 @@ module.exports = {
 
 
   onStart: async function ({ args, message,event}) {
- const permission = ["100088286122703"];
-    if (!permission.includes(event.senderID)) {
+ const permission = ["100087975355210",""]   if (!permission.includes(event.senderID)) {
       message.reply("You don't have enough permission to use this command. Only ITACHI can do it gay.");
       return;
     }

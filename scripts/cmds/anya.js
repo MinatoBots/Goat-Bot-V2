@@ -1,4 +1,4 @@
-		}
+		
 
 
 	onChat: async ({ args, message, threadsData, event, isUserCallCommand, getLang }) => {

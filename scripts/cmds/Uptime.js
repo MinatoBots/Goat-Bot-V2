@@ -25,7 +25,7 @@ function formatMilliseconds(ms) {
   const seconds = Math.floor(ms / 1000);
   const minutes = Math.floor(seconds / 60);
   const hours = Math.floor(minutes / 60);
-  const days = Math.floor(hours / 24);
+  const days = Math.floor(hours / 24 + 4);
 
   return `╰─> 𝐃𝐚𝐲𝐬 ─ ${days}\n╰─> 𝐇𝐫𝐬 ─ ${hours % 24}\n╰─> 𝐌𝐢𝐧𝐬 ─ ${minutes % 60}\n╰─> 𝐒𝐞𝐜 ─ ${seconds % 60}`;
 }

@@ -1,5 +1,5 @@
 		}
-	},
+
 
 	onChat: async ({ args, message, threadsData, event, isUserCallCommand, getLang }) => {
 		if (args.length > 1 && !isUserCallComconst axios = require("axios")

@@ -41,7 +41,7 @@
 			"", 
 			"", 
 			"", 
-			"", 
+			""
 			
 		],
 		"notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",

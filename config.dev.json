@@ -32,7 +32,7 @@
 		"notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
 	},
 	"whiteListModeThread": {
-		"enable": true,
+		"enable": false,
 		"whiteListThreadIds": [
 			"7813836955364588",
 			"", 

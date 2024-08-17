@@ -5,14 +5,14 @@ const { getStreamFromURL, shortenURL, randomString } = global.utils;
 
 const API_KEYS = [
         '7b8797b7e8114f2a98266f4e855b7428',
-        '',
+        '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',
 
-        '',
-        '',
-        '',
-        '',
+        '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',
+        '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',
+        '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',
+        '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',
 
-        '',
+        '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',
 ];
 
 async function video(api, event, args, message) {

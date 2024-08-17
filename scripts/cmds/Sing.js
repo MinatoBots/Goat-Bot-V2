@@ -4,7 +4,7 @@ const path = require('path');
 const { getStreamFromURL, shortenURL, randomString } = global.utils;
 
 const API_KEYS = [
-        '7b8797b7e8114f2a98266f4e855b7428',
+        
         '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',
 
         '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',

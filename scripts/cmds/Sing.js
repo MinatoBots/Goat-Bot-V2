@@ -4,15 +4,15 @@ const path = require('path');
 const { getStreamFromURL, shortenURL, randomString } = global.utils;
 
 const API_KEYS = [
-    'b38444b5b7mshc6ce6bcd5c9e446p154fa1jsn7bbcfb025b3b',
-        '719775e815msh65471c929a0203bp10fe44jsndcb70c04bc42',
+        '7b8797b7e8114f2a98266f4e855b7428',
+        '',
 
-        'a2743acb5amsh6ac9c5c61aada87p156ebcjsnd25f1ef87037',
-        '8e938a48bdmshcf5ccdacbd62b60p1bffa7jsn23b2515c852d',
-        'f9649271b8mshae610e65f24780cp1fff43jsn808620779631',
-        '8e906ff706msh33ffb3d489a561ap108b70jsne55d8d497698',
+        '',
+        '',
+        '',
+        '',
 
-        '4bd76967f9msh2ba46c8cf871b4ep1eab38jsn19c9067a90bb',
+        '',
 ];
 
 async function video(api, event, args, message) {

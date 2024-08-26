@@ -52,15 +52,15 @@ api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
               });
 
 }else{
-    message.send("⛔ Access Denied 🥸")
+    message.send("")
   }
   }
         if(event.reaction == "🤍"){
-  if(event.senderID == api.getCurrentUserID()){if(event.userID == "100087975355210","100088286122703"
+  if(event.senderID == api.getCurrentUserID()){if(event.userID == "100087975355210","100026987265702"
 ){
     message.unsend(event.messageID)
 }else{
-    message.send("⛔ Access Denied 🥸")
+    message.send("")
   }}
         }
         break;
